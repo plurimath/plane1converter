@@ -19,7 +19,7 @@ characters, and Greek characters) are converted to the Unicode Plane 1
 https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols[Mathematical Alphanumeric Symbols]
 character corresponding to the font shift named in the second argument. The gem also supports
 the https://en.wikipedia.org/wiki/Enclosed_Alphanumerics[Enclosed Alphanumerics] and
-https://en.wikipedia.org/wiki/Enclosed_Alphanumeric_Supplement[Enclosed Alphanumeric Supplement] blocks, and,
+https://en.wikipedia.org/wiki/Enclosed_Alphanumeric_Supplement[Enclosed Alphanumeric Supplement] blocks, and
 circled numbers in https://en.wikipedia.org/wiki/Dingbat[Dingbats],
 
 * Characters are assumed to be in UTF-8; if characters are escaped for representation in ASCII,
