@@ -10,9 +10,9 @@ Plane1Converter.conv("Plane1Converter", :fraktur)
 
 which gives:
 
-[source,console]
-----
-----
+____
+𝔓𝔩𝔞𝔫𝔢1ℭ𝔬𝔫𝔳𝔢𝔯𝔱𝔢𝔯
+____
 
 * The first argument is a string; all ASCII alphabetic characters (and, if supported, numeric
 characters, and Greek characters) are converted to the Unicode Plane 1 
