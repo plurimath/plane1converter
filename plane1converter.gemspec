@@ -1,6 +1,6 @@
 # coding: utf-8
-  
-lib = File.expand_path("../lib", __FILE__)
+
+lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "plane1converter/version"
 
@@ -26,13 +26,12 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "byebug", "~> 9.1"
-  spec.add_development_dependency "rspec-match_fuzzy", "~> 0.1.3"
   spec.add_development_dependency "guard", "~> 2.14"
   spec.add_development_dependency "guard-rspec", "~> 4.7"
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec", "~> 3.6"
+  spec.add_development_dependency "rspec-match_fuzzy", "~> 0.1.3"
   spec.add_development_dependency "rubocop", "~> 1.5.2"
   spec.add_development_dependency "simplecov", "~> 0.15"
   spec.add_development_dependency "timecop", "~> 0.9"
 end
-
