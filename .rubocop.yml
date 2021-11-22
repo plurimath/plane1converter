@@ -9,6 +9,4 @@ inherit_from:
 AllCops:
   DisplayCopNames: false
   StyleGuideCopsOnly: false
-  TargetRubyVersion: 2.4
-Rails:
-  Enabled: true
+  TargetRubyVersion: 2.5
