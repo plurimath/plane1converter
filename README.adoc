@@ -1,3 +1,5 @@
+## DEPRECATION NOTICE: This repository is no longer maintained. Please visit link:https://github.com/plurimath/plurimath[Plurimath] for the latest updates and features.
+
 = plane1converter
 Convert character + font shift to Unicode Plane 1 Mathematical Alphanumeric Symbols
 
