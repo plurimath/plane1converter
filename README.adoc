@@ -1,3 +1,26 @@
+## RETIRED — superseded by Plurimath
+
+This repository was archived on 2026-11-02 and is no longer maintained. Its
+functionality — converting a character plus font shift into Unicode Plane 1
+Mathematical Alphanumeric Symbols — is fully subsumed by
+https://github.com/plurimath/plurimath[Plurimath]. Plurimath's UnicodeMath
+surface parses Plane 1 math alphanumerics natively and every writer emits them
+faithfully; the styled-symbol machinery is documented in the Plurimath symbol
+catalog (over 1,500 entries).
+
+Gem usage:
+
+[source,ruby]
+----
+require "plurimath"
+
+formula = Plurimath::Math.parse("𝐀 + 𝟘", :unicode)
+formula.to_unicodemath  # => "𝐀 + 𝟘" (Plane 1 characters preserved)
+formula.to_latex        # => "&#x1d400; + &#x1d7d8;"
+----
+
+Documentation: the symbol catalog and the formal specifications live at
+https://plurimath.github.io/docs/ .
 ## DEPRECATION NOTICE: This repository is no longer maintained. Please visit link:https://github.com/plurimath/plurimath[Plurimath] for the latest updates and features.
 
 = plane1converter
